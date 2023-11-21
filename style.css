@@ -1,86 +1,99 @@
+h1,
+h2,
+h3 {
+  font-family: "Abril Fatface";
+}
+
+p,
+p1,
+ul,
+li,
+h4,
+h5 {
+  font-family: "Josefin Sans";
+}
+
+h6 {
+  font-family: "Merriweather";
+  font-size: 15px;
+  font-style: italic;
+  margin-top: -30px;
+  font-weight: 900;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  background-color: #222;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+ul.a {
+  list-style-type: square;
+  line-height: 160%;
+}
+
+#first {
+  font-size: 18px;
+}
+
+p1 {
+  font-size: 18px;
+}
+
 .container {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Open Sans";
-}
-
-.newsletter {
-  color: grey;
-  border: thin solid #cfcfcf;
-  padding: 10px;
-  border-radius: 3px;
   position: relative;
-    
+  margin-bottom: 50px;
 }
 
-.newsletter button {
-  background-color: #3cb878;
-  border: none;
-  color: white;
-  display: block;
-  width: 100%;
-  height:30px;
-  margin-bottom: 20px;
+.hi {
+  bottom: 8px;
+  left: 16px;
 }
 
-.newsletter input#email {
-  display: block;
-  width: 100%;
-  height:30px;
-  margin-bottom: 4px;
-  border-radius: 3px;
-  border: thin solid #cfcfcf;
-  box-sizing: border-box;
+img {
+  width: 1100px;
 }
 
-.newsletter h3 {
-  margin-top: 3px;
+.content {
+  width: 800px;
+  margin: auto;
 }
 
-.newsletter input#terms {
-  margin-bottom: 20px;
-  position: relative;
-  top: 1px;
-}
-.newsletter #closex {
-  position: absolute;
-  top: 0;
-  right: 5px;
-}
-
-#questionmark {
-  background-color: #3cb878;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  color: white;
-  text-align: center;
-  font-size: 70px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  box-shadow: 0px 0px 6px 2px grey;
-}
-
-.card {
-  background-color: #3cb878;
-  width: 180px;
-  text-align: center;
-  color: white;
-  padding: 20px 0px;
-  box-shadow: 0px 0px 6px 2px grey;
- 
-}
-
-.card h3 {
-  margin: 0;
-  margin-top: 10px;
-}
-
-#card-holder {
-  margin-bottom: 30px;
+header {
+  background: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: cover;
+  height: 300px;
+  padding: 25px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+header .content {
+  height: 40px;
 }
